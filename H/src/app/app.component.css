@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #666;
+  }
+
+
+
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+.btn{
+    display: inline-block;
+    background: #333333;
+    color: #fff;
+    padding: 8px 4px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin: 1px;
+    transition: opacity 0.2s ease-in;
+}
+.btn.disabled{
+    background: #ccc;
+    color: #000;
+    cursor: not-allowed;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn.btn-danger{
+    background: #dc3545;
+    color: #fff;
+}
+
+.form-control{
+    display: block;
+    margin: 2px 0px;
+
+}
+
+
+.form-control label {
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+
+.form-control input {
+    margin-bottom: 0;
+}
+
+.form-control .validation {
+    color: red;
+}
+
+
+
+.card {
+    padding: 1rem;
+    border: #ccc 1px dotted;
+    margin: 0.7rem 0;
+  
+
+}
+.card p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card p span.completed {
+    text-decoration: line-through;
+  }
+  
+  input,
+  select,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  hr {
+    margin: .5rem 0;
+  }
+
+  p.error {
+    color: red;
+  }
+  
